@@ -1,5 +1,5 @@
 import Navbar from "../../components/Navbar";
-import { ContainerHome } from "./HomeStyles";
+import { ContainerHome } from "./homeStyles";
 
 function Home() {
   return (
