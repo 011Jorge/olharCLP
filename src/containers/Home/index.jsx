@@ -1,8 +1,12 @@
+import Navbar from "../../components/Navbar";
+import { ContainerHome } from "./HomeStyles";
+
 function Home() {
   return (
-    <div>
+    <ContainerHome>
+      <Navbar />
       <h1>I am Home</h1>
-    </div>
+    </ContainerHome>
   );
 }
 
