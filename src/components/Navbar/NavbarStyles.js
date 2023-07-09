@@ -6,7 +6,14 @@ export const ContainerNavbar = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  background-color: #fff;
+  color: #4c4c4c;
+  background-color: orange;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 `;
 
 export const ImageLogo = styled.img`

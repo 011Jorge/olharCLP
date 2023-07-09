@@ -7,5 +7,4 @@ export const ContainerHome = styled.div`
   height: 100vh;
 
   color: #fff;
-  background-color: #0c0c0c;
 `;
