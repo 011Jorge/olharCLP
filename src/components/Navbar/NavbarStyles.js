@@ -7,12 +7,19 @@ export const ContainerNavbar = styled.div`
   justify-content: space-between;
 
   color: #4c4c4c;
-  background-color: orange;
+  background-color: #ff7b00;
 
   div {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 30px;
+
+    h1 {
+      font-family: "Cinzel Decorative", cursive;
+      color: black;
+      font-size: 50px;
+    }
   }
 `;
 
@@ -75,7 +82,7 @@ export const Nav = styled.div`
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #ff5e00;
+    background-color: #fff;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);

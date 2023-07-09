@@ -6,7 +6,6 @@ function Navbar() {
   return (
     <ContainerNavbar>
       <div>
-        <ImageLogo src={Logo} alt="logo-olhar-clp" />
         <h1>OlharCLP</h1>
       </div>
 
