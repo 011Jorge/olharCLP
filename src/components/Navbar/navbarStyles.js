@@ -7,6 +7,9 @@ export const ContainerNavbar = styled.div`
   align-items: center;
 
   padding: 20px;
+
+  background-color: orange;
+  opacity: 0.9;
 `;
 
 export const ContainerLogo = styled.div`
@@ -64,7 +67,7 @@ export const ContainerLink = styled.div`
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: orange;
+    background-color: #fff;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);

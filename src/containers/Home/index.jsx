@@ -1,11 +1,16 @@
 import Navbar from "../../components/Navbar";
-import { ContainerHome } from "./homeStyles";
+import { ContainerHome, ContainerImage } from "./homeStyles";
 
 function Home() {
   return (
     <ContainerHome>
-      <Navbar />
-      <h1>I am Home</h1>
+      <ContainerImage>
+        <Navbar />
+        <h1>Seja Notado por onde passa!</h1>
+      </ContainerImage>
+      {/* <div>
+        <h1>Hello</h1>
+      </div> */}
     </ContainerHome>
   );
 }
